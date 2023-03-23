@@ -1,0 +1,11 @@
+oliver:$2b$12$2S0KYx3XWGkqkZ01nCEhVeKGDPNX7Mq4OjLF2wvjL1bGzbtVu6gtW
+piyush:$2b$12$3q9CqLCvI/EuNMMjR0Wiy.qE.xIxgVcOgVRoxSzoZXCjZY6EpgrHS
+oliver|$2b$12$HeJZ15OG3LOfURmgw0yEC.5tXjjG1smn7Zsq6JV0FuuDH0d7sGDy6
+oliver|$2b$12$XPpvxlT5hmL6882yuJaALuSaBX8jGv5l1X1yB92ueDTk1JbRbpCFS
+prince|$2b$12$5f6Oe5Noste8gSFCATfsj.w4oOB/xtpu/JyaTfUt7ubPblb4GElFi
+nitin|$2b$12$u/e.5JZoKGVElC0E1MFfXOO3Dt8WDlLJhftt1t0Sa8tMTl8L7N066
+anju|$2b$12$lsxn2QAPTliuADX6SgILCeLYsO2A4an8C7zu630kaqZCSAvMtQf.y
+anjudevi|b'$2b$12$W5Mq/mo42v9ZQW5t79haS.G0ZyHJhPp7sd2oCYC5BsQO.AnSxhhy.'
+admin|$2b$12$vZh1.2.09N/z.Lje/y8MQO4JSYjyx.dUAyn1EBNU97dsXgJ2iU42e
+admin1|$2b$12$tu0VaIUEV1ym9QfqejoZaOP4Jnt.f9eSZFN0YDQHKAnuE/qh7Jzw6
+admin2|$2b$12$lsbLSt9RIYw/oQSHsf54u.mI21ssx5g48sRZlZzeWieFeSBhyvXcC
