@@ -19,7 +19,7 @@ def write_database(username, hashed_password):
 
 def read_database():
     database = {}
-    with open("/home/piyush/Desktop/Code/coading/python/Database.txt", "r") as f:
+    with open("/home/piyush/Desktop/Code/miscellaneous/Database.txt", "r") as f:
         for line in f:
             fields = line.strip().split("|")
             if len(fields) == 2: 
