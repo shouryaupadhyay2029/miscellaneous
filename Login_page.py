@@ -9,9 +9,9 @@ app = Flask(__name__)
 limiter = Limiter(app, default_limits=["1000 per day", "100 per hour"])
 limiter.key_func = get_remote_address
 
+
 @app.route("/")
 @limiter.limit("10 per minute")
-
 def write_database(username, hashed_password):
     with open("/home/piyush/Desktop/Code/coading/python/Database.txt", "a") as f:
         f.write(f"{username}|{hashed_password.decode('utf-8')}\n")
@@ -22,12 +22,14 @@ def read_database():
     with open("/home/piyush/Desktop/Code/miscellaneous/Database.txt", "r") as f:
         for line in f:
             fields = line.strip().split("|")
-            if len(fields) == 2: 
-                username, hashed_password = fields 
+            if len(fields) == 2:
+                username, hashed_password = fields
                 database[username] = hashed_password.encode('utf-8')
     return database
 
+
 LOGIN_ATTEMPTS = {}  # a dictionary to store the number of login attempts for each user
+
 
 def login(database):
     print("Login Page")
@@ -74,7 +76,10 @@ def create_account(database):
     write_database(username, hashed_password)
     print(f"User {username} created successfully.")
 
+
 database = read_database()
+
+
 def get_start():
     database = read_database()
     while True:
@@ -86,7 +91,9 @@ def get_start():
             create_account(database)
             login(database)
             break
-        else: 
+        else:
             print("Sorry, I didn't get that (use lowercase):")
+
+
 if __name__ == "__main__":
     get_start()
